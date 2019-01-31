@@ -16,6 +16,10 @@
 		390C1238220328EB00A72881 /* LineUpTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C1237220328EB00A72881 /* LineUpTableViewController.swift */; };
 		390C123A2203294800A72881 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C12392203294800A72881 /* DetailViewController.swift */; };
 		390C123C2203298D00A72881 /* MapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C123B2203298D00A72881 /* MapAnnotation.swift */; };
+		390C123E22033A5F00A72881 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C123D22033A5F00A72881 /* Artist.swift */; };
+		390C124222033DC400A72881 /* LineUpDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C124122033DC400A72881 /* LineUpDay.swift */; };
+		390C124422033E4A00A72881 /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C124322033E4A00A72881 /* DAO.swift */; };
+		390C12462203428E00A72881 /* LineUpStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C12452203428E00A72881 /* LineUpStage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		390C1237220328EB00A72881 /* LineUpTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineUpTableViewController.swift; sourceTree = "<group>"; };
 		390C12392203294800A72881 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		390C123B2203298D00A72881 /* MapAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotation.swift; sourceTree = "<group>"; };
+		390C123D22033A5F00A72881 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		390C124122033DC400A72881 /* LineUpDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineUpDay.swift; sourceTree = "<group>"; };
+		390C124322033E4A00A72881 /* DAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
+		390C12452203428E00A72881 /* LineUpStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineUpStage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,10 @@
 		390C1232220324F500A72881 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				390C124322033E4A00A72881 /* DAO.swift */,
+				390C123D22033A5F00A72881 /* Artist.swift */,
+				390C12452203428E00A72881 /* LineUpStage.swift */,
+				390C124122033DC400A72881 /* LineUpDay.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -173,10 +185,14 @@
 			files = (
 				390C1223220324D700A72881 /* AboutViewController.swift in Sources */,
 				390C1236220328CA00A72881 /* MapViewController.swift in Sources */,
+				390C123E22033A5F00A72881 /* Artist.swift in Sources */,
+				390C124422033E4A00A72881 /* DAO.swift in Sources */,
 				390C123A2203294800A72881 /* DetailViewController.swift in Sources */,
 				390C1238220328EB00A72881 /* LineUpTableViewController.swift in Sources */,
+				390C124222033DC400A72881 /* LineUpDay.swift in Sources */,
 				390C1221220324D700A72881 /* AppDelegate.swift in Sources */,
 				390C123C2203298D00A72881 /* MapAnnotation.swift in Sources */,
+				390C12462203428E00A72881 /* LineUpStage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
