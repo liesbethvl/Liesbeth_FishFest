@@ -13,6 +13,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
 
     
     @IBOutlet weak var festMap: MKMapView!
+    
     var pins:[MapAnnotation] = [MapAnnotation]()
     var locationManager:CLLocationManager = CLLocationManager.init()
     
@@ -26,8 +27,8 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         festMap.mapType = .standard
         
         //Annotaties aanmaken
-        let pinBeachStage = MapAnnotation.init(coordinate: CLLocationCoordinate2D.init(latitude: 51.153019 , longitude: 2.725702), title: "Beach Stage", subtitle: "Line-Up")
-        let pinDuneStage = MapAnnotation.init(coordinate: CLLocationCoordinate2DMake(51.152459, 2.722531), title: "Dune Stage", subtitle: "Line-Up")
+        let pinDuneStage = MapAnnotation.init(coordinate: CLLocationCoordinate2D.init(latitude: 51.153019 , longitude: 2.725702), title: "Dune Stage", subtitle: "Line-Up")
+        let pinBeachStage = MapAnnotation.init(coordinate: CLLocationCoordinate2DMake(51.152459, 2.722531), title: "Beach Stage", subtitle: "Line-Up")
         let pinDuneEat = MapAnnotation.init(coordinate: CLLocationCoordinate2DMake(51.152439, 2.726066), title: "Frietkraam", subtitle: "")
         
         //lijst invullen

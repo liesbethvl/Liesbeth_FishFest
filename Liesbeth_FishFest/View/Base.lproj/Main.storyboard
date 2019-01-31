@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0V6-7j-Csj">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -26,7 +26,7 @@
             </objects>
             <point key="canvasLocation" x="2012" y="-488"/>
         </scene>
-        <!--Plattegrond-->
+        <!--Festival Map-->
         <scene sceneID="H2b-YJ-GZv">
             <objects>
                 <viewController id="vwr-FU-Vt2" customClass="MapViewController" customModule="Liesbeth_FishFest" customModuleProvider="target" sceneMemberID="viewController">
@@ -42,9 +42,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ayo-In-ZRu"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Plattegrond" id="HMT-v4-VJr"/>
+                    <tabBarItem key="tabBarItem" title="Festival Map" id="HMT-v4-VJr"/>
                     <connections>
-                        <outlet property="plattegrond" destination="9gM-we-LLd" id="iYc-Ym-OYL"/>
+                        <outlet property="festMap" destination="9gM-we-LLd" id="Iir-vb-1zj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gMR-Rt-m7w" userLabel="First Responder" sceneMemberID="firstResponder"/>
