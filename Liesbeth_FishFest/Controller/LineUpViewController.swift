@@ -32,8 +32,8 @@ class LineUpViewController: UITableViewController{
             
             //we gebruiken nu eigen cell
             cell!.textLabel!.text = artist.name
-        cell!.detailTextLabel!.text = artist.time! + " " + artist.stage!
-        //cell!.imageView!.image = UIImage.init(named: artist.picName
+            cell!.detailTextLabel!.text = artist.time! + " " + artist.stage!
+            //cell!.imageView!.image = UIImage.init(named: artist.picName
         
             //cell is getekend, opgevuld
         return cell!
@@ -49,19 +49,19 @@ class LineUpViewController: UITableViewController{
             // Do any additional setup after loading the view, typically from a nib.
         }
     
-    /* segue naar details
+    //segue naar details
         override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
             
             //naar welk scherm?
-            let destination:DetailViewController = segue.destination as! DetailViewController
+            let destination:DetailsViewController = segue.destination as! DetailsViewController
             //wat naar scherm doorsturen
-            let plaatsWaarGeklikt = frituurTableView.indexPathForSelectedRow
-            let product = dao.catLijst![plaatsWaarGeklikt!.section].prodLijst![plaatsWaarGeklikt!.row]
+            let screenTouched = tableView.indexPathForSelectedRow
+            let artist = dao.dayList![screenTouched!.section].artistList![screenTouched!.row]
             //effectief doorgeven
-            destination.doorgegevenProduct = product
+            destination.artistDetail = artist
             
         }
-    */
+    
         
 }
 

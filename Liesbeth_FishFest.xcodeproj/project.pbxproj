@@ -18,7 +18,7 @@
 		390C124222033DC400A72881 /* LineUpDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C124122033DC400A72881 /* LineUpDay.swift */; };
 		390C124422033E4A00A72881 /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C124322033E4A00A72881 /* DAO.swift */; };
 		390C124822034AC100A72881 /* LineUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C124722034AC100A72881 /* LineUpViewController.swift */; };
-		390C124A22034B9000A72881 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C124922034B9000A72881 /* DetailsViewController.swift */; };
+		391C32642204457700BB82F2 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391C32632204457700BB82F2 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,7 @@
 		390C124122033DC400A72881 /* LineUpDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineUpDay.swift; sourceTree = "<group>"; };
 		390C124322033E4A00A72881 /* DAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
 		390C124722034AC100A72881 /* LineUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineUpViewController.swift; sourceTree = "<group>"; };
-		390C124922034B9000A72881 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		391C32632204457700BB82F2 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailsViewController.swift; path = ../../DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 				390C1235220328CA00A72881 /* MapViewController.swift */,
 				390C123B2203298D00A72881 /* MapAnnotation.swift */,
 				390C124722034AC100A72881 /* LineUpViewController.swift */,
-				390C124922034B9000A72881 /* DetailsViewController.swift */,
+				391C32632204457700BB82F2 /* DetailsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -182,13 +182,13 @@
 			files = (
 				390C1223220324D700A72881 /* AboutViewController.swift in Sources */,
 				390C1236220328CA00A72881 /* MapViewController.swift in Sources */,
+				391C32642204457700BB82F2 /* DetailsViewController.swift in Sources */,
 				390C123E22033A5F00A72881 /* Artist.swift in Sources */,
 				390C124422033E4A00A72881 /* DAO.swift in Sources */,
 				390C124222033DC400A72881 /* LineUpDay.swift in Sources */,
 				390C1221220324D700A72881 /* AppDelegate.swift in Sources */,
 				390C124822034AC100A72881 /* LineUpViewController.swift in Sources */,
 				390C123C2203298D00A72881 /* MapAnnotation.swift in Sources */,
-				390C124A22034B9000A72881 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
