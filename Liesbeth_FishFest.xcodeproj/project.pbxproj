@@ -19,10 +19,22 @@
 		390C124422033E4A00A72881 /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C124322033E4A00A72881 /* DAO.swift */; };
 		390C124822034AC100A72881 /* LineUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C124722034AC100A72881 /* LineUpViewController.swift */; };
 		391C32642204457700BB82F2 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391C32632204457700BB82F2 /* DetailsViewController.swift */; };
-		391C32662204578F00BB82F2 /* close-up-daylight-knot-1457785.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 391C32652204578F00BB82F2 /* close-up-daylight-knot-1457785.jpg */; };
-		391C326822045C4100BB82F2 /* launch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 391C326722045C4100BB82F2 /* launch.jpg */; };
 		391C326A22045CAA00BB82F2 /* cargo-dock-harbor-9318.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 391C326922045CA900BB82F2 /* cargo-dock-harbor-9318.jpg */; };
-		391C326C220461DA00BB82F2 /* fish fest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 391C326B220461DA00BB82F2 /* fish fest.jpg */; };
+		391C32702204801200BB82F2 /* ariel.png in Resources */ = {isa = PBXBuildFile; fileRef = 391C326F2204801100BB82F2 /* ariel.png */; };
+		391C327A2204818E00BB82F2 /* crabs.png in Resources */ = {isa = PBXBuildFile; fileRef = 391C32792204818E00BB82F2 /* crabs.png */; };
+		391C32802204820E00BB82F2 /* freewilly.png in Resources */ = {isa = PBXBuildFile; fileRef = 391C327F2204820E00BB82F2 /* freewilly.png */; };
+		391C32872204852C00BB82F2 /* freddy.png in Resources */ = {isa = PBXBuildFile; fileRef = 391C32862204852C00BB82F2 /* freddy.png */; };
+		391C328B220485D000BB82F2 /* cleve.png in Resources */ = {isa = PBXBuildFile; fileRef = 391C328A220485D000BB82F2 /* cleve.png */; };
+		391C328D220485FA00BB82F2 /* nemo.png in Resources */ = {isa = PBXBuildFile; fileRef = 391C328C220485FA00BB82F2 /* nemo.png */; };
+		391C328F2204867900BB82F2 /* dory.png in Resources */ = {isa = PBXBuildFile; fileRef = 391C328E2204867900BB82F2 /* dory.png */; };
+		391C32922204883900BB82F2 /* kapitein.png in Resources */ = {isa = PBXBuildFile; fileRef = 391C32912204883900BB82F2 /* kapitein.png */; };
+		391C3294220488B400BB82F2 /* gepetto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 391C3293220488B400BB82F2 /* gepetto.jpg */; };
+		391C32962204899F00BB82F2 /* fish fest 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 391C32952204899E00BB82F2 /* fish fest 2.jpg */; };
+		391C329822048AFA00BB82F2 /* abouticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 391C329722048AF900BB82F2 /* abouticon.png */; };
+		391C329A22048B1400BB82F2 /* mapicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 391C329922048B1300BB82F2 /* mapicon.png */; };
+		391C329C22048B3200BB82F2 /* musicicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 391C329B22048B3200BB82F2 /* musicicon.png */; };
+		391C329E22048F3700BB82F2 /* marklocation.png in Resources */ = {isa = PBXBuildFile; fileRef = 391C329D22048F3700BB82F2 /* marklocation.png */; };
+		391C32A02204903D00BB82F2 /* musicnoteicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 391C329F2204903D00BB82F2 /* musicnoteicon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,10 +52,23 @@
 		390C124322033E4A00A72881 /* DAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
 		390C124722034AC100A72881 /* LineUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineUpViewController.swift; sourceTree = "<group>"; };
 		391C32632204457700BB82F2 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailsViewController.swift; path = ../../DetailsViewController.swift; sourceTree = "<group>"; };
-		391C32652204578F00BB82F2 /* close-up-daylight-knot-1457785.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "close-up-daylight-knot-1457785.jpg"; sourceTree = "<group>"; };
-		391C326722045C4100BB82F2 /* launch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launch.jpg; sourceTree = "<group>"; };
 		391C326922045CA900BB82F2 /* cargo-dock-harbor-9318.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cargo-dock-harbor-9318.jpg"; sourceTree = "<group>"; };
-		391C326B220461DA00BB82F2 /* fish fest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fish fest.jpg"; sourceTree = "<group>"; };
+		391C326F2204801100BB82F2 /* ariel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ariel.png; sourceTree = "<group>"; };
+		391C32792204818E00BB82F2 /* crabs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crabs.png; sourceTree = "<group>"; };
+		391C327F2204820E00BB82F2 /* freewilly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = freewilly.png; sourceTree = "<group>"; };
+		391C32862204852C00BB82F2 /* freddy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = freddy.png; sourceTree = "<group>"; };
+		391C328A220485D000BB82F2 /* cleve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cleve.png; sourceTree = "<group>"; };
+		391C328C220485FA00BB82F2 /* nemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nemo.png; sourceTree = "<group>"; };
+		391C328E2204867900BB82F2 /* dory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dory.png; sourceTree = "<group>"; };
+		391C3290220487C100BB82F2 /* flippers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flippers.png; path = /Users/mobapp11/Documents/Liesbeth_FishFest/Liesbeth_FishFest/View/flippers.png; sourceTree = "<absolute>"; };
+		391C32912204883900BB82F2 /* kapitein.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kapitein.png; path = ../../../kapitein.png; sourceTree = "<group>"; };
+		391C3293220488B400BB82F2 /* gepetto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gepetto.jpg; path = ../../../gepetto.jpg; sourceTree = "<group>"; };
+		391C32952204899E00BB82F2 /* fish fest 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fish fest 2.jpg"; sourceTree = "<group>"; };
+		391C329722048AF900BB82F2 /* abouticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abouticon.png; sourceTree = "<group>"; };
+		391C329922048B1300BB82F2 /* mapicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapicon.png; sourceTree = "<group>"; };
+		391C329B22048B3200BB82F2 /* musicicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musicicon.png; sourceTree = "<group>"; };
+		391C329D22048F3700BB82F2 /* marklocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marklocation.png; sourceTree = "<group>"; };
+		391C329F2204903D00BB82F2 /* musicnoteicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musicnoteicon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +125,24 @@
 			isa = PBXGroup;
 			children = (
 				390C1224220324D700A72881 /* Main.storyboard */,
+				391C329F2204903D00BB82F2 /* musicnoteicon.png */,
 				390C1229220324E400A72881 /* LaunchScreen.storyboard */,
-				391C326B220461DA00BB82F2 /* fish fest.jpg */,
+				391C32792204818E00BB82F2 /* crabs.png */,
+				391C329D22048F3700BB82F2 /* marklocation.png */,
+				391C329B22048B3200BB82F2 /* musicicon.png */,
+				391C329922048B1300BB82F2 /* mapicon.png */,
+				391C329722048AF900BB82F2 /* abouticon.png */,
+				391C3290220487C100BB82F2 /* flippers.png */,
+				391C328E2204867900BB82F2 /* dory.png */,
+				391C3293220488B400BB82F2 /* gepetto.jpg */,
+				391C32912204883900BB82F2 /* kapitein.png */,
+				391C327F2204820E00BB82F2 /* freewilly.png */,
+				391C32952204899E00BB82F2 /* fish fest 2.jpg */,
+				391C328C220485FA00BB82F2 /* nemo.png */,
+				391C328A220485D000BB82F2 /* cleve.png */,
+				391C32862204852C00BB82F2 /* freddy.png */,
 				391C326922045CA900BB82F2 /* cargo-dock-harbor-9318.jpg */,
-				391C326722045C4100BB82F2 /* launch.jpg */,
-				391C32652204578F00BB82F2 /* close-up-daylight-knot-1457785.jpg */,
+				391C326F2204801100BB82F2 /* ariel.png */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,13 +217,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				391C32962204899F00BB82F2 /* fish fest 2.jpg in Resources */,
+				391C32922204883900BB82F2 /* kapitein.png in Resources */,
+				391C328D220485FA00BB82F2 /* nemo.png in Resources */,
 				391C326A22045CAA00BB82F2 /* cargo-dock-harbor-9318.jpg in Resources */,
 				390C122B220324E400A72881 /* LaunchScreen.storyboard in Resources */,
-				391C326822045C4100BB82F2 /* launch.jpg in Resources */,
+				391C32A02204903D00BB82F2 /* musicnoteicon.png in Resources */,
+				391C329A22048B1400BB82F2 /* mapicon.png in Resources */,
+				391C329C22048B3200BB82F2 /* musicicon.png in Resources */,
+				391C328B220485D000BB82F2 /* cleve.png in Resources */,
+				391C328F2204867900BB82F2 /* dory.png in Resources */,
 				390C1228220324E400A72881 /* Assets.xcassets in Resources */,
+				391C32872204852C00BB82F2 /* freddy.png in Resources */,
+				391C329822048AFA00BB82F2 /* abouticon.png in Resources */,
+				391C327A2204818E00BB82F2 /* crabs.png in Resources */,
+				391C329E22048F3700BB82F2 /* marklocation.png in Resources */,
+				391C32802204820E00BB82F2 /* freewilly.png in Resources */,
+				391C3294220488B400BB82F2 /* gepetto.jpg in Resources */,
+				391C32702204801200BB82F2 /* ariel.png in Resources */,
 				390C1226220324D700A72881 /* Main.storyboard in Resources */,
-				391C326C220461DA00BB82F2 /* fish fest.jpg in Resources */,
-				391C32662204578F00BB82F2 /* close-up-daylight-knot-1457785.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

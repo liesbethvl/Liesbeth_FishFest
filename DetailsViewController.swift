@@ -11,8 +11,9 @@ import UIKit
 class DetailsViewController: UIViewController {
 
     
-    @IBOutlet weak var tfArtistName: UITextField!
-    @IBOutlet weak var tfTimeStage: UITextField!
+    @IBOutlet weak var tvArtistName: UITextView!
+    @IBOutlet weak var imageArtistPic: UIImageView!
+    @IBOutlet weak var tvTimeStage: UITextView!
     @IBOutlet weak var tvInfo: UITextView!
     
     var artistDetail:Artist?
@@ -20,10 +21,10 @@ class DetailsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tfArtistName.text = artistDetail?.name
-        tfTimeStage.text = (artistDetail?.time)! + " " + (artistDetail?.stage)!
+        tvArtistName.text = artistDetail?.name
+        tvTimeStage.text = (artistDetail?.time)! + " " + (artistDetail?.stage)!
         tvInfo.text = artistDetail?.info
-
+        imageArtistPic.image = UIImage.init(named: artistDetail!.picName!)
     }
     
 

@@ -2,6 +2,27 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Liesbeth_FishFest.xcodeproj">
+      location = "group:/Users/mobapp11/Documents/Liesbeth_FishFest/Liesbeth_FishFest/View/flippers.png">
+   </FileRef>
+   <FileRef
+      location = "group:flippers.png">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/mobapp11/Documents/Liesbeth_FishFest/Liesbeth_FishFest/View/dory.jpg">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/mobapp11/Documents/Liesbeth_FishFest/Liesbeth_FishFest/View/eddy.png">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/mobapp11/Documents/Liesbeth_FishFest/Liesbeth_FishFest/View/seasick.jp2">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/mobapp11/Documents/Liesbeth_FishFest/Liesbeth_FishFest/View/freddy.gif">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/mobapp11/Documents/Liesbeth_FishFest/Liesbeth_FishFest/View/cleve.jpg">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
