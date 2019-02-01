@@ -13,13 +13,12 @@
 		390C1228220324E400A72881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 390C1227220324E400A72881 /* Assets.xcassets */; };
 		390C122B220324E400A72881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390C1229220324E400A72881 /* LaunchScreen.storyboard */; };
 		390C1236220328CA00A72881 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C1235220328CA00A72881 /* MapViewController.swift */; };
-		390C1238220328EB00A72881 /* LineUpTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C1237220328EB00A72881 /* LineUpTableViewController.swift */; };
-		390C123A2203294800A72881 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C12392203294800A72881 /* DetailViewController.swift */; };
 		390C123C2203298D00A72881 /* MapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C123B2203298D00A72881 /* MapAnnotation.swift */; };
 		390C123E22033A5F00A72881 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C123D22033A5F00A72881 /* Artist.swift */; };
 		390C124222033DC400A72881 /* LineUpDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C124122033DC400A72881 /* LineUpDay.swift */; };
 		390C124422033E4A00A72881 /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C124322033E4A00A72881 /* DAO.swift */; };
-		390C12462203428E00A72881 /* LineUpStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C12452203428E00A72881 /* LineUpStage.swift */; };
+		390C124822034AC100A72881 /* LineUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C124722034AC100A72881 /* LineUpViewController.swift */; };
+		390C124A22034B9000A72881 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C124922034B9000A72881 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,13 +30,12 @@
 		390C122A220324E400A72881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		390C122C220324E400A72881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		390C1235220328CA00A72881 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		390C1237220328EB00A72881 /* LineUpTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineUpTableViewController.swift; sourceTree = "<group>"; };
-		390C12392203294800A72881 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		390C123B2203298D00A72881 /* MapAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotation.swift; sourceTree = "<group>"; };
 		390C123D22033A5F00A72881 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		390C124122033DC400A72881 /* LineUpDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineUpDay.swift; sourceTree = "<group>"; };
 		390C124322033E4A00A72881 /* DAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
-		390C12452203428E00A72881 /* LineUpStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineUpStage.swift; sourceTree = "<group>"; };
+		390C124722034AC100A72881 /* LineUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineUpViewController.swift; sourceTree = "<group>"; };
+		390C124922034B9000A72881 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +83,6 @@
 			children = (
 				390C124322033E4A00A72881 /* DAO.swift */,
 				390C123D22033A5F00A72881 /* Artist.swift */,
-				390C12452203428E00A72881 /* LineUpStage.swift */,
 				390C124122033DC400A72881 /* LineUpDay.swift */,
 			);
 			path = Model;
@@ -106,8 +103,8 @@
 				390C1222220324D700A72881 /* AboutViewController.swift */,
 				390C1235220328CA00A72881 /* MapViewController.swift */,
 				390C123B2203298D00A72881 /* MapAnnotation.swift */,
-				390C1237220328EB00A72881 /* LineUpTableViewController.swift */,
-				390C12392203294800A72881 /* DetailViewController.swift */,
+				390C124722034AC100A72881 /* LineUpViewController.swift */,
+				390C124922034B9000A72881 /* DetailsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -187,12 +184,11 @@
 				390C1236220328CA00A72881 /* MapViewController.swift in Sources */,
 				390C123E22033A5F00A72881 /* Artist.swift in Sources */,
 				390C124422033E4A00A72881 /* DAO.swift in Sources */,
-				390C123A2203294800A72881 /* DetailViewController.swift in Sources */,
-				390C1238220328EB00A72881 /* LineUpTableViewController.swift in Sources */,
 				390C124222033DC400A72881 /* LineUpDay.swift in Sources */,
 				390C1221220324D700A72881 /* AppDelegate.swift in Sources */,
+				390C124822034AC100A72881 /* LineUpViewController.swift in Sources */,
 				390C123C2203298D00A72881 /* MapAnnotation.swift in Sources */,
-				390C12462203428E00A72881 /* LineUpStage.swift in Sources */,
+				390C124A22034B9000A72881 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

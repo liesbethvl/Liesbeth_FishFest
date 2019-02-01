@@ -11,11 +11,13 @@ import Foundation
 class LineUpDay  {
     
     var name:String?
-    var stageList:[LineUpStage]?
+    var artistList:[Artist]?
     
     init(naam:String) {
         self.name = naam
-        stageList = [LineUpStage].init()
+        artistList = [Artist].init()
     }
     
 }
+
+

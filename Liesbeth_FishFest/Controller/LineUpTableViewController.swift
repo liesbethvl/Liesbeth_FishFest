@@ -8,8 +8,73 @@
 
 import UIKit
 
-class LineUpTableViewController: UITableViewController {
+class LineUpTableViewController: UITableViewController, UITableViewDataSource, UITableViewDelegate {
 
+    cclass ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
+    
+    let dao = DAO.init()
+    
+    @IBOutlet weak var frituurTableView: UITableView!
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+    return dao.catLijst!.count
+    }
+    
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    return dao.catLijst![section].prodLijst!.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    
+    //aanmaken cell, verwijst naar de cell in storyboard
+    let cell:FrietTableViewCellController = tableView.dequeueReusableCell(withIdentifier: "cell") as! FrietTableViewCellController
+    
+    //FrietTableViewCellController is een subklasse van UITableViewCell, dus moet in hoofding methode niet aangepast worden
+    
+    
+    //haal uit datasource het zoveelste product voor de zoveelste categorie
+    let product = dao.catLijst![indexPath.section].prodLijst![indexPath.row]
+    
+    //we gebruiken nu eigen cell
+    cell.naam.text = product.naam
+    cell.prijs.text = "\(product.prijs!)"
+    cell.aantal.text = "\(product.aantal!)"
+    
+    /*
+     //cell opvullen met object voor indexpath
+     cell?.textLabel!.text = product.naam
+     cell?.detailTextLabel!.text = "\(product.prijs!)"
+     */
+    
+    //cell is getekend, opgevuld
+    return cell
+    }
+    
+    
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    return dao.catLijst![section].naam
+    }
+    
+    override func viewDidLoad() {
+    super.viewDidLoad()
+    // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    
+    //naar welk scherm?
+    let destination:DetailViewController = segue.destination as! DetailViewController
+    //wat naar scherm doorsturen
+    let plaatsWaarGeklikt = frituurTableView.indexPathForSelectedRow
+    let product = dao.catLijst![plaatsWaarGeklikt!.section].prodLijst![plaatsWaarGeklikt!.row]
+    //effectief doorgeven
+    destination.doorgegevenProduct = product
+    
+    }
+    
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
