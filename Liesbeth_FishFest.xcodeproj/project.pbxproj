@@ -19,6 +19,10 @@
 		390C124422033E4A00A72881 /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C124322033E4A00A72881 /* DAO.swift */; };
 		390C124822034AC100A72881 /* LineUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C124722034AC100A72881 /* LineUpViewController.swift */; };
 		391C32642204457700BB82F2 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391C32632204457700BB82F2 /* DetailsViewController.swift */; };
+		391C32662204578F00BB82F2 /* close-up-daylight-knot-1457785.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 391C32652204578F00BB82F2 /* close-up-daylight-knot-1457785.jpg */; };
+		391C326822045C4100BB82F2 /* launch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 391C326722045C4100BB82F2 /* launch.jpg */; };
+		391C326A22045CAA00BB82F2 /* cargo-dock-harbor-9318.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 391C326922045CA900BB82F2 /* cargo-dock-harbor-9318.jpg */; };
+		391C326C220461DA00BB82F2 /* fish fest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 391C326B220461DA00BB82F2 /* fish fest.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		390C124322033E4A00A72881 /* DAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
 		390C124722034AC100A72881 /* LineUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineUpViewController.swift; sourceTree = "<group>"; };
 		391C32632204457700BB82F2 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailsViewController.swift; path = ../../DetailsViewController.swift; sourceTree = "<group>"; };
+		391C32652204578F00BB82F2 /* close-up-daylight-knot-1457785.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "close-up-daylight-knot-1457785.jpg"; sourceTree = "<group>"; };
+		391C326722045C4100BB82F2 /* launch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launch.jpg; sourceTree = "<group>"; };
+		391C326922045CA900BB82F2 /* cargo-dock-harbor-9318.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cargo-dock-harbor-9318.jpg"; sourceTree = "<group>"; };
+		391C326B220461DA00BB82F2 /* fish fest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fish fest.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +101,10 @@
 			children = (
 				390C1224220324D700A72881 /* Main.storyboard */,
 				390C1229220324E400A72881 /* LaunchScreen.storyboard */,
+				391C326B220461DA00BB82F2 /* fish fest.jpg */,
+				391C326922045CA900BB82F2 /* cargo-dock-harbor-9318.jpg */,
+				391C326722045C4100BB82F2 /* launch.jpg */,
+				391C32652204578F00BB82F2 /* close-up-daylight-knot-1457785.jpg */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -167,9 +179,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				391C326A22045CAA00BB82F2 /* cargo-dock-harbor-9318.jpg in Resources */,
 				390C122B220324E400A72881 /* LaunchScreen.storyboard in Resources */,
+				391C326822045C4100BB82F2 /* launch.jpg in Resources */,
 				390C1228220324E400A72881 /* Assets.xcassets in Resources */,
 				390C1226220324D700A72881 /* Main.storyboard in Resources */,
+				391C326C220461DA00BB82F2 /* fish fest.jpg in Resources */,
+				391C32662204578F00BB82F2 /* close-up-daylight-knot-1457785.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
