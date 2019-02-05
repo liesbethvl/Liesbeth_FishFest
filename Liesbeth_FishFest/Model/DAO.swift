@@ -20,9 +20,9 @@ class DAO {
         let gepettoWhales = Artist.init(id: 5, name: "Geppetto & The Whales", stage: "Beach Stage", time: "22h", picName: "gepetto.jpg", info: "Geppetto & The Whales is een in 2009 opgerichte Belgische band, afkomstig uit de Antwerpse Noorderkempen, die een mix brengt van americana en meerstemmige pop. Hun deelnames aan de Humo's Rock Rally in 2010 en 2012 resulteerden in een grote bekendheid in het Vlaamse muzieklandschap.")
         
         //dune zaterdag
-        let kapiteinWinokio = Artist.init(id: 2, name: "Kapitein Winokio", stage: "Dune Stage", time: "19h", picName: "kaptein.png", info: "Kapitein Winokio is een Vlaams muziekproject en typetje van Winok Seresia. Kapitein Winokio richt zich met eigentijdse versies van traditionele kinderliedjes op een zeer jong publiek. Kapitein Winokio treedt live op en brengt cd's en boeken op de markt.")
-        let nemo = Artist.init(id: 4, name: "Nemo", stage: "Dune Stage", time: "21h", picName: "nemo.png", info: "Lorem Ipsum")
-        let crabs = Artist.init(id: 6, name: " Mr Krabs", stage: "Dune Stage", time: "23h", picName: "crabs.png", info: "Lorem Ipsum")
+        let kapiteinWinokio = Artist.init(id: 2, name: "Kapitein Winokio", stage: "Sea Stage", time: "19h", picName: "kaptein.png", info: "Kapitein Winokio is een Vlaams muziekproject en typetje van Winok Seresia. Kapitein Winokio richt zich met eigentijdse versies van traditionele kinderliedjes op een zeer jong publiek. Kapitein Winokio treedt live op en brengt cd's en boeken op de markt.")
+        let nemo = Artist.init(id: 4, name: "Nemo", stage: "Sea Stage", time: "21h", picName: "nemo.png", info: "Lorem Ipsum")
+        let crabs = Artist.init(id: 6, name: " Mr Krabs", stage: "Sea Stage", time: "23h", picName: "crabs.png", info: "Lorem Ipsum")
        
         //aanmaak zaterdag LineUpDay
         let lineUpSaturday = LineUpDay.init(naam: "Zaterdag")
@@ -35,9 +35,9 @@ class DAO {
         let freeWilly = Artist.init(id: 11, name: "Free Willy", stage: "Beach Stage", time: "22h", picName: "freewilly.png", info: "Free Willy lorem ipsum")
         
         //dune zondag
-        let deFlippers = Artist.init(id: 8, name: "De Flippers", stage: "Dune Stage", time: "19h", picName: "flippers.png", info: "De Flippers lorem ipsum")
-        let dory = Artist.init(id: 10, name: "Dory", stage: "Dune Stage", time: "21h", picName: "dory.png", info: "Lorem Ipsum")
-        let ariel = Artist.init(id: 12, name: "Ariel", stage: "Dune Stage", time: "23h", picName: "ariel.png", info: "Lorem Ipsum")
+        let deFlippers = Artist.init(id: 8, name: "De Flippers", stage: "Sea Stage", time: "19h", picName: "flippers.png", info: "De Flippers lorem ipsum")
+        let dory = Artist.init(id: 10, name: "Dory", stage: "Sea Stage", time: "21h", picName: "dory.png", info: "Lorem Ipsum")
+        let ariel = Artist.init(id: 12, name: "Ariel", stage: "Sea Stage", time: "23h", picName: "ariel.png", info: "Lorem Ipsum")
         
         //aanmaak zondag LineUpDay
         let lineUpSunday = LineUpDay.init(naam: "Zondag")
